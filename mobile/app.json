@@ -1,0 +1,15 @@
+
+{
+  "expo": {
+    "name": "MiniLedger",
+    "slug": "miniledger",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": false },
+    "android": { "usesCleartextTraffic": true },
+    "plugins": [
+      ["expo-image-picker", { "photosPermission": "Allow MiniLedger to attach receipt photos." }]
+    ]
+  }
+}
